@@ -1,0 +1,110 @@
+
+.main-div-personnages{
+  //  @include grid;
+  //  display: grid;
+    margin-top: -48px;
+    background-image: url('../../img/sepia-plasterboard-texture.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.background-personnages{
+    grid-column: 1/ span 12;
+    background-image: url('../../img/background_personnages.png') ;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.swipe-main-div{
+    @include grid;
+    display: grid;
+    margin-top: 3rem;
+}
+
+.div-navigation-slide-left{
+    background-image: url('../../img/navigation_bar_perso_left.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 1/ span 4;
+}
+
+.div-navigation-slide-right{
+    background-image: url('../../img/navigation_bar_perso_right.png');
+    background-size: contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    grid-column: 9/ span 4;
+}
+
+.swipe-div{
+    grid-column: 6/ span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "caudex-regular";
+    font-weight: bold;
+    color: #372D05;
+    font-size: 24px;
+}
+
+.card{
+    background-color: rgba($color: #976537, $alpha: 0.7);
+    margin: 3rem 0rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    @include grid;
+    display: grid;
+}
+
+.title-card{
+    font-family: "caudex-regular";
+    margin-bottom: 0;
+    grid-column: 6/ span 6;
+    font-size: 22px;
+    text-align: center;
+    color: #372D05;
+}
+
+.paraph-card{
+    font-family: "caudex-regular";
+    color: #372D05;
+    font-size: 16px;
+    text-align: center;
+    grid-column: 6/ span 6;
+}
+
+.img-personnages{
+    grid-column: 1/ span 3;
+    width: 100%;
+    height: inherit;
+}
+
+.main-div-informations-personnages{
+    grid-column: 4/ span 9;
+    margin-right: 10px;
+}
+.carac-main-div{
+    display: flex;
+}
+.carac-div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+    font-family: "caudex-regular";
+    color: white;
+}
+
+.span-carac{
+    text-align: center;
+    font-size: 12px;
+}
+
+.title-carac{
+    margin-bottom: 10px;
+    color: #372D05;
+    font-weight: bold;
+}

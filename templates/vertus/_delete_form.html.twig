@@ -1,0 +1,5 @@
+<form method="post" action="{{ path('app_vertus_delete', {'id': vertu.id}) }}" >
+    <input type="text" name="nameVertus" value="{{vertu.nom}}" disabled="disabled">
+    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ vertu.id) }}">
+    <button class="btn">Supprimer</button>
+</form>

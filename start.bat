@@ -1,0 +1,1 @@
+"C:\Users\Ouble\scoop\apps\symfony-cli\current\.\symfony.exe"

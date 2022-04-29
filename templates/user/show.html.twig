@@ -1,0 +1,99 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Profil{% endblock %}
+
+{% block body %}
+<div class="bigContent">
+  <div class="side">
+    
+      <button id="perso" class="btn personnage">Personnages</button>
+ 
+      <button id="amie" class="btn amie">Amie</button>
+      
+      <button id="partieShow" class="btn partie">Partie</button>
+    
+  </div>
+
+
+  <div  class="contentPseudo">
+    <h1>{{ app.user.pseudo }}</h1>
+
+   
+    <div id="personnage" class="contentPerso">
+      <h3>Personnages </h3> 
+        <br>
+      {% for personnages in app.user.personnages %}
+      
+        <div class="Perso">
+            {#  <a href="{{ path('personnage_show', {'id': personnages.id} ) }}">Voir la fiche complète du personnage</a> #}
+            <div>nom personnage : {{personnages.nom }}</div>
+            <div>class : {{personnages.classe }}</div> 
+            <div>Parties jouées: {{personnages.partie|length}}</div>
+        </div>
+      {% endfor %}
+    </div>
+    <button class="newPerso"><a href="{{ path('personnage_new') }}">Créer un nouveau personnage</a></button>
+  </div>
+  <div id="partie" class="contentPartie">
+      nombre de parties jouées: {{app.user.parties|length}}
+    
+    <button><a href="{{ path('app_partie_new') }}">Créer une nouvelle partie</a></button>
+    <a href="{{ path('app_user_edit', {'id': user.id}) }}">edit</a>
+    {{ include('user/_delete_form.html.twig') }}
+      <br>
+    <hr> 
+    
+    </div>
+</div>
+     
+    
+    
+   
+
+    {#   <h3>Ajouter un ami:</h3>  
+      <br>
+      {{form_start(form, {'action': path('app_user_show', {'id': app.user.id}), 'method': 'POST'})}}
+      {{ form_row(form) }}
+      <button type="submit">Rechercher</button>
+      {{ form_end(form) }}
+      {% set deja_ami = null %} #}
+
+     {#  {% if joueur_recherche != 'null'%} #} {# Si il y a une recherche de pseudo #}  
+          {#  {% if joueur_recherche and joueur_recherche.pseudo != app.user.pseudo  %} #} {# Si le pseudo existe et est différent de celui du user #}
+{#               <b>{{joueur_recherche.pseudo}}</b>
+              {% for amis in app.user.amities %}
+                  {% if amis.Ami2.id == joueur_recherche.id %}
+                    {% set deja_ami = true %}
+                  {% endif %} 
+              {% endfor %}
+              
+              {% if deja_ami %}
+                Vous etes déjà amis !
+              {% else %}
+                <button>
+                  <a href="{{ path('app_user_show', {'id': user.id, 'joueur_ami':joueur_recherche.id}) }}">
+                    Ajouter
+                  </a>
+                </button>
+              {% endif %} #}
+
+             
+ {#        {% else %}
+          Pas de joueur trouvé
+        {% endif %}
+      {% endif %}
+      
+      <hr>
+      <br>
+      <h3>Mes amis:</h3>
+      <ul>
+       #}
+     {#  {% for amis in app.user.amities %}
+         <li>{{ amis.ami2.pseudo }}</li>
+      {% endfor %}
+      </ul> #}
+   
+    
+
+{% endblock %}

@@ -1,0 +1,6 @@
+#nouvelle_partie:
+#   path: /partie/{id}
+#   controller: App\Controller\PartieController::app_partie_new
+acme_privacy:
+    path: /home
+    controller: App\Controller\HomeController::index     

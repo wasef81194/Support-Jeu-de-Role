@@ -1,0 +1,50 @@
+
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+@mixin grid {
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 32px;
+}
+
+.roll {
+  padding: 1em;
+}
+
+.result {
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
+  background: white;
+  border: 4px solid grey;
+  border-radius: 10px;
+  font-family: 'Metal Mania';
+  font-size: 4em;
+  line-height: 100px;
+  text-align: center;
+}
+//style composant
+@import "/assets/styles/components/Navbar.scss";
+
+@import "./components/Inscription";
+@import "./fonts/fonts";
+@import "/assets/styles/components/Fond-Ecran.scss";
+@import "/assets/styles/components/Regles.scss";
+@import "./components/Personnages";
+@import "./components/Footer";
+@import "./components/Mentions.scss";
+
+//style twig
+@import "/assets/styles/twig/login.scss";
+@import "/assets/styles/twig/Register";
+@import "/assets/styles/twig/formPerso.scss";
+@import "/assets/styles/twig/user.scss";
+@import "/assets/styles/twig/newParty";

@@ -1,0 +1,19 @@
+<h4>Armes</h4>
+{% for arme in armes %}
+    {{ include('armes/_delete_form.html.twig') }}
+{% endfor %}
+<h4>Vertus</h4>
+{% for vertu in vertus %}
+    {{ include('vertus/_delete_form.html.twig') }}
+{% endfor %}
+<h4>Recompences</h4>
+    {% for recompence in recompences %}
+        {{ include('recompence/_delete_form.html.twig') }}
+    {% endfor %}
+
+{{ form_start(form, { 'attr' : {'id': 'personnageForm'}}) }}
+    {{ form_widget(form) }}
+    
+    
+    <button class="btn btn-outline-dark justify-content-center" type="submit" name="_valid" value="1" >{{ button_label|default('Enregistrer') }}</button>
+{{ form_end(form) }}

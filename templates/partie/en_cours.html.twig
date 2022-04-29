@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Partie{% endblock %}
+
+{% block body %}
+    <h1>{{partie.nom}}</h1>
+
+    <h2>Game Master :{{app.user.pseudo}}</h2>
+    <table class="table">
+        <tbody>
+                <input type="hidden" id="is_modif" value="{{is_modified|default('null')}}"> 
+                {# A voir quoi mettre comme infos sur cette page pour les joueurs #}
+                <h2>Joueurs</h2>
+                {% for personnages in partie.personnages %}
+                    <tr>
+                      <th>
+                      {{personnages.joueur.pseudo}}
+                      </th>
+                  </tr>
+                  <td>
+                  {{personnages.nom}}
+                  </td>
+                  <td>
+                   {{personnages.classe}}
+                  </td>  
+                  <td><a href="{{ path('personnage_edit', {'id': personnages.id, 'partie':partie.id}) }}"><button class="showModifPerso" style="display:none">Modifier</button></a></td> 
+                {% endfor %}
+            
+        </tbody>
+    </table>
+<div id="generate_de">
+    <button id="d4Roll">
+      <input type="image" img src="https://res.cloudinary.com/g33kymonk3y/image/upload/v1536777263/dev%20projects/codepen%20projects/dice/d4.png"></button>
+
+    <button id="d6Roll">
+      <input type="image" img src="https://res.cloudinary.com/g33kymonk3y/image/upload/v1536777266/dev%20projects/codepen%20projects/dice/d6.png"></button>
+
+    <button id="d8Roll">
+      <input type="image" img src="https://res.cloudinary.com/g33kymonk3y/image/upload/v1536777269/dev%20projects/codepen%20projects/dice/d8.png"></button>
+
+    <button id="d10Roll">
+      <input type="image" img src="https://res.cloudinary.com/g33kymonk3y/image/upload/v1536777274/dev%20projects/codepen%20projects/dice/d10.png"></button>
+
+    <button id="d12Roll">
+      <input type="image" img src="https://res.cloudinary.com/g33kymonk3y/image/upload/v1536777278/dev%20projects/codepen%20projects/dice/d12.png"></button>
+
+    <button id="d20Roll">
+      <input type="image" img src="https://res.cloudinary.com/g33kymonk3y/image/upload/v1536777281/dev%20projects/codepen%20projects/dice/d20.png"></button>
+
+    <div class="result">
+      <div id="display"></div>
+    </div>
+</div>
+{# Acceder au formulaire de modification de chaque joueur -AUCUNE IDEE DE COMMENT FAIRE CA ENCORE #}
+{# A ne pas oublier - vider le role game master  #}
+<button id="endPartie">Partie terminée</button>
+<a id="endModif" style="display:none" href="{{ path('app_user_show', {'id': app.user.id}) }}"><button>Modifications terminées </button></a>
+<button id="endPartieCancel"  style="display:none">Annuler</button>
+    
+{% endblock %}

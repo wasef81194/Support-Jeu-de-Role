@@ -1,0 +1,119 @@
+
+{{ form_start(form, { 'attr' : {'id': 'personnageForm' , 'class' : 'persoForm'}}) }}
+
+    <div class="classeBanniere">
+    <h1>Créer votre Personnage</h1>
+    
+
+    <div class="start">
+        <div class="classe-input">
+            {{ form_row(form.nom)}}
+            {{ form_row(form.classe)}}
+            {{ form_row(form.origine)}}
+            {{ form_row(form.vocation)}}
+        </div>
+        <div class="classe-img">
+           <img src="https://media.discordapp.net/attachments/968448853160386591/968932547419598878/bardie.png" width="40%"></img>
+        </div>        
+    </div>
+</div>
+<div class="barre"><br><br></div>
+
+    
+
+    <div class="main-content">
+
+    
+      
+            {% if form.Admiration is defined %}
+                <div class="left">
+                    <h2>PARTICULARITES</h2>
+                    <div class="content">
+                        <div class="left-content">
+                            {{ form_row(form.Admiration ,{ 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Athletisme, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Conscience, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Exploration, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Chant, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Artisanat, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Inspiration, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Voyage, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Perspicacite, { 'attr': {'class': 'mb-3'}})}}
+                        </div>
+                        <div class="right-content">
+                            {{ form_row(form.Guerison, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Courtoisie, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Combat, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Persuasion, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Furtivite, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Fouille, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Chasse, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Enigmes, { 'attr': {'class': 'mb-3'}})}}
+                            {{ form_row(form.Conaissances, { 'attr': {'class': 'mb-3'}})}}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        
+
+        
+            {% if form.armes is defined %}
+            <div class="midle">
+                <h2> SPECIALITES </h2>
+                <div class="content">
+                    <div class="right-content">
+                        {{ form_row(form.armes)}}
+                        {{ form_row(form.specialites1)}}
+                        {{ form_row(form.specialites2)}}
+                        {% if form.Particularite is defined %}
+                            {{ form_row(form.Particularite)}}
+                        {% endif %}
+                        {{ form_row(form.attributCorps)}}
+                        {% if form.attributCoeur is defined %}
+                            {{ form_row(form.attributCoeur)}}
+                        {% endif %}
+                        {% if form.attributEsprit is defined  %}        
+                            {{ form_row(form.attributEsprit)}} 
+                        {% endif %}   
+                        {% if form.vertus is defined%}
+                            {{ form_row(form.vertus)}}
+                        {% endif %}  
+
+                        {% if form.competences_favorites_vocation is defined %}
+                            {{ form_row(form.competences_favorites_vocation)}}  
+                        {% endif %}  
+
+                        {% if form.recompence is defined %}
+                           {{ form_row(form.recompence)}}
+                        {% endif %}
+
+                        
+                        {{ form_row(form.valeurPrincipale)}} 
+                    </div>
+                    <div class="left-content">
+                        {{ form_row(form.standard_de_vie)}}
+                        {{ form_row(form.avantage_culturel)}}
+                        {% if form.competence_favorite is defined %}
+                            {{ form_row(form.competence_favorite)}}
+                            {{ form_row(form.endurance)}}
+                            {{ form_row(form.espoir)}}
+                            {{ form_row(form.corps)}}
+                            {{ form_row(form.esprit)}} 
+                        {% endif %}
+                        {% if form.Particularite is defined %}
+                            {{ form_row(form.coeur)}} 
+                        {% endif %}
+                        {% if form.traits is defined %}
+                            {{ form_row(form.part_ombre)}}
+                            {{ form_row(form.traits)}}
+                            
+                        {% endif %} 
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+    </div>
+    <div class="end">
+        <button class="validation" type="submit" name="_valid" value="1" >{{ button_label|default('Enregistrer') }}</button>
+    </div>
+{{ form_end(form) }}

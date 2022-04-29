@@ -1,0 +1,85 @@
+.fond-1{
+    //width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(/assets/img/anneau-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.history-container{
+    background-image: url(/assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    width: 100%;
+    .container-header{
+        height: 100em;
+        width: 100%;
+        text-align: center;
+        font-family: Caudex;
+        p{
+            font-size: 60px;
+            font-family: Caudex;
+        }
+        .history-resume{
+            width: 80%;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-left:10%;
+            p{
+                font-size: 30px;
+            font-family: Caudex;
+            }
+        }
+        .history-place{
+            width: 80%;
+            height: 50%;
+            margin-left: 10%;
+            display: flex;
+            flex-direction: row;
+            .left{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                .img{
+                    background-image: url(/assets/img/img-history.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size:cover ;
+
+                    width: 72%;
+                    height: 74.5%;
+                }
+            }
+            .right{
+                width: 100%;
+                height: 100%;
+                
+                text-align: left;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h2{
+                
+                    font-size: 25x;
+                    text-align: left;
+                    align-items: flex-end    ;
+                    width: 100%;
+                }
+                p{
+                    font-size: 30px;
+                    font-family: Caudex;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,138 @@
+body{
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-color:#FFF8DD;
+}
+
+.main-body-register{
+    @include grid;
+   display: grid;
+}
+.main-div-register {
+  @include grid;
+  display: grid;
+  font-family: "caudex-regular";
+}
+
+form{
+    grid-column: 5/ span 4;
+}
+
+.inscription-label{
+  margin-top: 4rem;
+  grid-column: 1/ span 12;
+  text-align: center;
+  color: #dfab2a;
+  font-size: 24px;
+}
+
+.rotate-circle {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../../img/circle.png');
+    background-position: center;
+    background-size: cover;
+    animation: rotation 60s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.email-register-div {
+  grid-column: 1 / span 12;
+  color: #dfab2a;
+  input {
+    width: 70%;
+    padding: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border: 1px solid #dfab2a;
+    color: #dfab2a;
+    font-family: "caudex-regular";
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  input::placeholder {
+    color: #dfab2a;
+    font-size: 12px;
+  }
+  input:hover {
+    outline: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.password-register-div {
+  grid-column: 1 / span 12;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #dfab2a;
+  input {
+    width: 70%;
+    padding: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border: 1px solid #dfab2a;
+    color: #dfab2a;
+    font-family: "caudex-regular";
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  input::placeholder {
+    color: #dfab2a;
+    font-size: 12px;
+  }
+  input:hover {
+    outline: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.required {
+  text-align: center;
+}
+.submit-register-div {
+  grid-column: 5 / span 4;
+  margin-left: auto;
+  margin-right: auto;
+  button {
+    background-color: #dfab2a;
+    font-family: "caudex-regular";
+    color: white;
+    border: 1px solid #dfab2a;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    font-size: 18px;
+  }
+}

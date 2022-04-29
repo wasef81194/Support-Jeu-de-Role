@@ -1,0 +1,1030 @@
+{ 
+    "Attribut ameliorés" :{
+        "corps": [1,2,3],
+        "coeur" : [1,2,3],
+        "esprit":[1,2,3]
+    },
+    "Classe":{
+        "1":
+        {
+            "nom":"Bardides",
+            "standard de vie": "Prospère",
+            "Avantage culturel":"Intrépide",
+            "Endurance" : 22,
+            "Espoir" : 8,
+            "Vertus":{
+                "1": "Épouvantables visions",
+                "2": "Héritage",
+                "3": "Homme du Roi",
+                "4": "Maître d’armes",
+                "5": "Défense féroce",
+                "6": "D’une seule voix",
+                "7": "Prévoyance"
+            },
+            "Recompence":{
+                "1": "Arc long de Dale (Grand arc)",
+                "2": "Lance du Roi Bladorthin (Lance)",
+                "3": "Grand pavois (Grand bouclier)",
+                "4": "Épée du Roi Bard"
+            },
+            "competence":{
+                "Admiration":1,
+                "Athletisme":0,
+                "Conscience":0,
+                "Exploration":2,
+                "Chant":1,
+                "Artisanat":1,
+
+                "Inspiration":2,
+                "Voyage":2,
+                "Perspicacite":2,
+                "Guerison":0,
+                "Courtoisie":2,
+                "Combat":2,
+
+                "Persuasion":3,
+                "Furtivite":0,
+                "Fouille":1,
+                "Chasse":0,
+                "Enigmes":0,
+                "Conaissances":1
+            },
+            "specialite":{
+                "1" : "Batelier",
+                "2" : "Commerce",
+                "3" : "Forge",
+                "4" : "Menuisier",
+                "5" : "Natation",
+                "6" : "Tradition ancienne"
+            },
+            "Origine":{
+                "1":
+                {
+                    "nom":"Le Marteau et l’Enclume",
+                        "Attribut de base":{
+                        "corps":5,
+                        "coeur":7,
+                         "esprit":2
+                        },
+                    "competence favorite":"Artisanat",
+                   "Particularite": ["Audacieux","Déterminé","Fier","Généreux","Miséricordieux","Prudent","Résistant","Sévère"]
+                },
+                "2":
+                {
+                        "nom":"Au fil du verbe",
+                        "Attribut de base":{
+                        "corps":4,
+                        "coeur":6,
+                        "esprit":4
+                    },
+                    "competence favorite":"Enigmes",
+                    "Particularite": ["Astucieux","Audacieux","Courtois","Grand","Loyal","Majestueux","Passionné","Téméraire"]
+                },
+                "3":
+                {
+                        "nom":"Sens acérés",
+                        "Attribut de base":{
+                        "corps":6,
+                        "coeur":6,
+                        "esprit":2
+                    },
+                    "competence favorite":"Fouille",
+                    "Particularite": ["Audacieux","Circonspect","Courtois","Inébranlable","Malin","Patient","Prudent","Sincère"]
+                },
+                "4":
+                {
+                    "nom":"Mains guérisseuses",
+                    "Attribut de base":{
+                        "corps":4,
+                        "coeur":7,
+                        "esprit":3
+                    },
+                    "competence favorite":"Guerison",
+                    "Particularite": ["Astucieux","Audacieux","Beau","Fier","Grand","Majestueux","Résistant","Téméraire"]
+                },
+                    "5":
+                    {
+                        "nom": "Oeil de Dragon",
+                        "Attribut de base":{
+                            "corps":5,
+                            "coeur":6,
+                            "esprit":3
+                        },
+                        "competence favorite":"Présence",
+                        "Particularite": ["Audacieux","Déterminé","Généreux","Loyal","Malin","Observateur","Passionné","Sévère"]
+                    },
+                    "6":
+                    {
+                        "nom": "Éternel chasseur",
+                        "Attribut de base":{
+                            "corps":5,
+                            "coeur":5,
+                            "esprit":4
+                        },
+                        "competence favorite":"Chasse",
+                        "Particularite": ["Audacieux","Beau","Circonspect","Inébranlable","Miséricordieux","Observateur","Patient","Sincère"]
+                    
+                    }
+             },
+              "Vocation":{
+                "1":{
+                    "nom":"Érudit",
+                    "competences_favorites":["Perception","Métier"],
+                    "traits":"Rimes de savoir",
+                    "part d'ombre":"Attrait des secrets"
+                },
+                "2":{
+                    "nom":"Chasseur de trésors",
+                    "competences_favorites":["Déplacement","Perception"],
+                    "traits":"Monte-en-l’air",
+                    "part d'ombre":"Mal du Dragon"
+                }
+            },
+            "Armes":{
+                "1":{
+                    "1":{
+                        "nom" : "Épées",
+                        "competence" : 2
+                    },
+                    "2" :{
+                        "nom" : "Lance",
+                        "competence" : 1
+                    },
+                    "3" :{
+                        "nom" : "Dague",
+                        "competence" : 1
+                    }
+                },
+                "2":{
+                    "1":{
+                        "nom" : "Grand arc",
+                        "competence" : 2
+                    },
+                    "2" :{
+                        "nom" : "Lance",
+                        "competence" : 1
+                    },
+                    "3" :{
+                        "nom" : "Dague",
+                        "competence" : 1
+                    }
+                }
+            }
+        },
+        "2":{
+                "nom":"Beornides",
+                "standard de vie": "Martial",
+                "Avantage culturel":"Forcené",
+                "Endurance" : 24,
+                "Espoir" : 8,
+                "Vertus":{
+                    "1": "Biscuits au miel",
+                    "2": "Force considérable",
+                    "3": "Frère des Ours",
+                    "4": "Peau épaisse",
+                    "5": "Vagabond nocturne",
+                    "6": "Rédemption par le sang",
+                    "7": "Manteau de peaux",
+                    "8": "Ami des animaux"
+                },
+                "Recompence":{
+                    "1": "Lance tueuse de Géants (Grande lance)",
+                    "2": "Armure noble (Armure de cuir)",
+                    "3": "Hache d’écartèlement (Hache ou Grande Hache)"
+                },
+                "competence":{
+                        "Admiration":3,
+                        "Athletisme":2,
+                        "Conscience":2,
+                        "Exploration":0,
+                        "Chant":0,
+                        "Artisanat":1,
+
+                        "Inspiration":1,
+                        "Voyage":0,
+                        "Perspicacite":3,
+                        "Guerison":1,
+                        "Courtoisie":0,
+                        "Combat":0,
+
+                        "Persuasion":0,
+                        "Furtivite":0,
+                        "Fouille":1,
+                        "Chasse":3,
+                        "Enigmes":1,
+                        "Conaissances":0   
+                },
+                "specialite":{
+                    "1" : "Connaissance de la faune",
+                    "2" : "Connaissances régionales",
+                    "3" : "Conte",
+                    "4" : "Cuisine",
+                    "5" : "Montagnard",
+                    "6" : "Pêche"
+                },
+                "Origine":{
+                    "1":
+                    {
+                        "nom": "Racines doubles",
+                        "Attribut de base":{
+                            "corps":6,
+                            "coeur":6,
+                            "esprit":2
+                        },
+                        "competence favorite":"Intuition",
+                        "Particularite": ["Bourru", "Courageux", "Endurci","Entêté" ,"Fier", "Grand","Impétueux","Sinistre"]
+                    },
+                    "2":
+                    {
+                        "nom": "Messager",
+                        "Attribut de base":{
+                            "corps":7,
+                            "coeur":5,
+                            "esprit":2
+                        },
+                        "competence favorite":"Inspiration",
+                        "Particularite": ["Déterminé","Énergique","Endurci","Franc","Loyal","Rapide","Robuste","Sinistre"]
+                    },
+                    "3":
+                    {
+                        "nom": "Chef de famille",
+                        "Attribut de base":{
+                            "corps":6,
+                            "coeur":4,
+                            "esprit":4
+                        },
+                        "competence favorite":"Vigilance",
+                        "Particularite": ["Curieux","Déterminé","Entêté","Généreux","Inébranlable","Loyal","Résistant","Sinistre"]
+                    },
+                    "4":
+                    {
+                        "nom": "Pied léger",
+                        "Attribut de base":{
+                            "corps":5,
+                            "coeur":5,
+                            "esprit":4
+                        },
+                        "competence favorite":"Discrétion",
+                        "Particularite": ["Courageux","Curieux","Énergique","Franc","Méfiant","Rapide","Sinistre","Téméraire"]
+                    },
+                    "5":
+                    {
+                        "nom":  "Gardien des Contes",
+                        "Attribut de base":{
+                            "corps":6,
+                            "coeur":5,
+                            "esprit":3
+                        },
+                        "competence favorite":"Connaissances",
+                        "Particularite": ["Bourru","Courroucé","Impétueux","Méfiant","Résistant","Téméraire","Sinistre","Vengeur"]
+                    },
+                    "6":
+                    {
+                        "nom":  "Voix des ges",
+                        "Attribut de base":{
+                            "corps":7,
+                            "coeur":4,
+                            "esprit":3
+                        },
+                        "competence favorite":"Chant",
+                        "Particularite": ["Courroucé","Fier","Généreux","Grand","Inébranlable","Robuste","Sinistre","Vengeur"]
+                    }
+                },
+                "Vocation":{
+                    "1":{
+                        "nom":"Protecteur",
+                        "competences_favorites":["Personnalité","Survie"],
+                        "traits":"Conscience de l’Ombre",
+                        "part d'ombre":"Attrait du pouvoir"
+                    },
+                    "2":{
+                        "nom":"Tueur",
+                        "competences_favorites":["Déplacement","Personnalité"],
+                        "traits":"Connaissances des ennemis",
+                        "part d'ombre":"Malédiction de Vengeance"
+                    },
+                    "3":{
+                        "nom":"Chasseur de trésors",
+                        "competences_favorites":["Déplacement","Perception"],
+                        "traits":"Monte-en-l’air",
+                        "part d'ombre":"Mal du Dragon"
+                    }
+                },
+                "Armes":{
+                    "1":{
+                        "1":{ 
+                            "nom" : "Haches",
+                            "competence" : 2
+                        },
+                        "2":{
+                            "nom" : "Lance",
+                            "competence" : 1
+                        },
+                        "3":{
+                            "nom" : "Dague",
+                            "competence" : 1
+                        }
+                    },
+                    "2":{
+                        "1":{ 
+                            "nom" : "Grande lance",
+                            "competence" : 2
+                        },
+                        "2":{
+                            "nom" : "Lance",
+                            "competence" : 1
+                        },
+                        "3":{
+                            "nom" : "Dague",
+                            "competence" : 1
+                        }
+                    }
+                }
+        },
+        
+        "3":{
+                "nom":"Nains du Mont Solitaire",
+                "standard de vie": "Riche",
+                "Avantage culturel":"Redoubtable",
+                "Endurance" : 28,
+                "Espoir" : 6,
+                "Vertus":{
+                    "1": "Haine ancestrale",
+                    "2": "Nuque roide des Nains",
+                    "3": "Les Corbeaux de la Montagne",
+                    "4": "Sorts brisés",
+                    "5": "Voie de Durin",
+                    "6": "Seconde peau",
+                    "7": "Science des Pierres",
+                    "8": "Ingénieur Nain"
+                },
+                "Recompence":{
+                    "1": "Hache de l’Azalnubizar (Grande hache)",
+                    "2": "Haubert des Nains (Armure de mailles)",
+                    "3": "Heaume d’Effroi (Heaume)",
+                    "4": "Toujours plus profond...",
+                    "5": "Forge naine",
+                    "6": "Brasserie naine"
+                },
+                "competence":{
+                    "Admiration":0,
+                    "Athletisme":0,
+                    "Conscience":0,
+                    "Exploration":2,
+                    "Chant":1,
+                    "Artisanat":3,
+
+                    "Inspiration":2,
+                    "Voyage":3,
+                    "Perspicacite":0,
+                    "Guerison":0,
+                    "Courtoisie":0,
+                    "Combat":1,
+
+                    "Persuasion":0,
+                    "Furtivite":0,
+                    "Fouille":3,
+                    "Chasse":0,
+                    "Enigmes":2,
+                    "Conaissances":0     
+                },
+                "specialite":{
+                    "1" : "Allume-Feu",
+                    "2" : "Forge",
+                    "3" : "Fumer", 
+                    "4" : "Commerce",
+                    "5" : "Tunnelier",
+                    "6" : "Maçonnerie"
+                },
+                "Origine":{
+                    "1":
+                    {
+                        "nom": "Une vie de labeur",
+                        "Attribut de base":{
+                            "corps":6,
+                            "coeur":2,
+                            "esprit":6
+                        },
+                        "competence favorite":"Exploration",
+                        "Particularite": ["Circonspect","Endurci","Énergique","Entêté","Fier","Impétueux","Sévère","Vengeur"]
+                    },
+                    "2":
+                    {
+                        "nom":"Marchand ambulant",
+                        "Attribut de base":{
+                            "corps":7,
+                            "coeur":2,
+                            "esprit":5
+                        },
+                        "competence favorite":"Courtoisie",
+                        "Particularite": ["Cachottier","Entêté","Honorable","Inébranlable","Malin","Passionné","Prudent","Résistant"]
+                    },
+                    "3":
+                    {
+                        "nom":"Cruel exil",
+                        "Attribut de base":{
+                            "corps":7,
+                            "coeur":3,
+                            "esprit":4
+                        },
+                        "competence favorite":"Guerison",
+                        "Particularite": ["Bourru","Cachottier","Courroucé","Endurci","Entêté","Impétueux","Robuste","Sévère"]
+                    },
+                    "4":
+                    {
+                        "nom": "Orateur talentueux",
+                        "Attribut de base":{
+                            "corps":5,
+                            "coeur":4,
+                            "esprit":5
+                        },
+                        "competence favorite":"Persuasion",
+                        "Particularite": ["Circonspect","Déterminé","Énergique","Entêté","Fier","Honorable","Inébranlable","Prudent"]
+                    },
+                    "5":
+                    {
+                        "nom":  "L’Art de la Vengeance",
+                        "Attribut de base":{
+                            "corps":6,
+                            "coeur":3,
+                            "esprit":5
+                        },
+                        "competence favorite":"Art de la guerre",
+                        "Particularite": ["Courageux","Déterminé","Entêté","Majestueux","Malin","Méfiant","Résistant","Vengeur"]
+                    },
+                    "6":
+                    {
+                        "nom": "Un regard pénétrant",
+                        "Attribut de base":{
+                            "corps":6,
+                            "coeur":4,
+                            "esprit":4
+                        },
+                        "competence favorite":"Intuition",
+                        "Particularite": ["Bourru","Courageux","Courroucé","Entêté","Majestueux","Méfiant","Passionné","Robuste"]
+                        }
+                },
+                "Vocation":{
+                  "1":{
+                        "nom":"Chasseur de trésors",
+                        "competences_favorites":["Déplacement","Perception"],
+                        "traits":"Monte-en-l’air",
+                        "part d'ombre":"Mal du Dragon"
+                    },
+                    "2":{
+                        "nom":"Tueur",
+                        "competences_favorites":["Déplacement","Personnalité"],
+                        "traits":"Connaissances des ennemis",
+                        "part d'ombre":"Malédiction de Vengeance"
+                    },
+                    "3":{
+                        "nom":"Protecteur",
+                        "competences_favorites":["Personnalité","Survie"],
+                        "traits":"Conscience de l’Ombre",
+                        "part d'ombre":"Attrait du pouvoir"
+                    }
+                },
+                "Armes":{
+                    "1":{
+                        "1" :{
+                            "nom" :"Haches",
+                            "competence":2
+                        },
+                        "2" :{
+                            "nom" :"Épée courte",
+                            "competence":1
+                        },
+                        "3" :{
+                            "nom" :"Dague",
+                            "competence":1
+                        }
+                    },
+                    "2":{
+                        "1" :{
+                            "nom" :"Bigot",
+                            "competence":2
+                        },
+                        "2" :{
+                            "nom" :"Épée courte",
+                            "competence":1
+                        },
+                        "3" :{
+                            "nom" :"Dague",
+                            "competence":1
+                        }
+                    }
+                }
+        },
+        
+        "4":{
+            "nom" : "Elfes de la Forêt Noire",
+            "standard de vie": "Martial",
+            "Avantage culturel":"Peuple du Crépuscule",
+            "Endurance" : 22,
+            "Espoir" : 8,
+            "Vertus":{
+                "1": "Fléau de l’Ombre",
+                "2": "Les Hérauts",
+                "3": "Magie des Elfes Sylvains",
+                "4": "Archerie mortelle",
+                "5": "Rêves Elfiques",
+                "6": "Archer mortel",
+                "7": "Terrible à contempler",
+                "8": "Chansons"
+            },
+            "Recompence":{
+                "1": "Lance amère (Lance)",
+                "2": "Bouclier du lancier (Rondache)",
+                "3": "Arc sylvain (Arc)",
+                "4": "Joaillerie ou Tannerie"
+            },
+            "competence":{
+                "Admiration":2,
+                "Athletisme":3,
+                "Conscience":2,
+                "Exploration":0,
+                "Chant":2,
+                "Artisanat":0,
+
+                "Inspiration":0,
+                "Voyage":0,
+                "Perspicacite":0,
+                "Guerison":1,
+                "Courtoisie":0,
+                "Combat":2,
+
+                "Persuasion":0,
+                "Furtivite":2,
+                "Fouille":0,
+                "Chasse":1,
+                "Enigmes":0,
+                "Conaissances":3      
+            },
+            "specialite":{
+                "1" : "Allume-Feu",
+                "2" : "Batelier",
+                "3" : "Connaissances elfiques",
+                "4" : "Connaissances régionales ",
+                "5" : "Natation",
+                "6" : "Menuisier"
+            },
+            "Origine":{
+                "1":
+                {
+                    "nom":"Un nouvel espoir",
+                    "Attribut de base":{
+                        "corps":5,
+                        "coeur":2,
+                        "esprit":7
+                    },
+                    "competence favorite":"Voyage",
+                    "Particularite": ["Astucieux","Circonspect","Déterminé","Entêté","Jovial","Ouïe fine","Patient","Rapide"]
+                },
+                "2":
+                {
+                "nom":"Un héritage musical",
+                "Attribut de base":{
+                    "corps":5,
+                    "coeur":4,
+                    "esprit":5
+                },
+                "competence favorite":"Courtoisie",
+                "Particularite": ["Cachottier","Courtois","Fier","Insaisissable","Malin","Miséricordieux","Ouïe fine","Prudent"]
+                },
+                "3":
+                {
+                "nom":"Se souvenir du Mal",
+                "Attribut de base":{
+                    "corps":5,
+                    "coeur":3,
+                    "esprit":6
+                },
+                "competence favorite":"Discrétion",
+                "Particularite": ["Circonspect","Déterminé","Endurci","Insaisissable","Méfiant","Ouïe fine","Patient","Vue perçante"]
+                },
+                "4":
+                {
+                    "nom":"Sang noble",
+                    "Attribut de base":{
+                        "corps":4,
+                        "coeur":4,
+                        "esprit":6
+                    },
+                    "competence favorite":"Inspiration",
+                    "Particularite": ["Beau","Entêté","Fier","Honorable","Majestueux","Méfiant","Ouïe fine","Rapide"]
+                },
+                "5":
+                {
+                    "nom":"Coeur farouche",
+                    "Attribut de base":{
+                        "corps":4,
+                        "coeur":3,
+                        "esprit":7
+                    },
+                    "competence favorite":"Athletisme",
+                    "Particularite": ["Prudent","Astucieux","Beau","Honorable","Jovial","Ouïe fine","Preste","Vue perçante"]
+                },
+                "6":
+                {
+                    "nom":"Emissaire du Roi",
+                    "Attribut de base":{
+                        "corps":6,
+                        "coeur":2,
+                        "esprit":6
+                    },
+                    "competence favorite":"Connaissances",
+                    "Particularite": ["Cachottier","Courtois","Endurci","Majestueux","Malin","Miséricordieux","Ouïe fine","Preste"]
+                }
+            },
+            "Vocation":{
+              "1":{
+                    "nom":"Érudit ",
+                    "competences_favorites":["Perception ","Métier"],
+                    "traits":"Rimes de savoir",
+                    "part d'ombre":"Attrait des secrets"
+                },
+                "2":{
+                    "nom":"Protecteur",
+                    "competences_favorites":["Personnalité","Survie"],
+                    "traits":"Conscience de l’Ombre",
+                    "part d'ombre":"Attrait du pouvoir"
+                },
+                "3":{
+                    "nom":"Vagabond",
+                    "competences_favorites":["Coutume","Survie"],
+                    "traits":"Folklore",
+                    "part d'ombre":"Folie itinérante"
+                }
+            },
+            "Armes":{
+                "1":{
+                    "1" :{
+                        "nom" :"Lances",
+                        "competence":2
+                    },
+                    "2" :{
+                        "nom" :"Épée",
+                        "competence":1
+                    },
+                    "3" :{
+                        "nom" :"Dague",
+                        "competence":1
+                    }
+                },
+                "2":{
+                    "1" :{
+                        "nom" :"Arc",
+                        "competence":2
+                    },
+                    "2" :{
+                        "nom" :"Épée",
+                        "competence":1
+                    },
+                    "3" :{
+                        "nom" :"Dague",
+                        "competence":1
+                    }
+                }
+            } 
+       
+    },
+        "5":{
+            "nom": "Hobbits de la Comté",
+            "standard de vie": "Prospère",
+            "Avantage culturel": "Sens du Hobbit",
+            "Endurance" : 16,
+            "Espoir" : 12,
+            "Vertus":{
+                "1": "Art de la disparition",
+                "2": "Aussi dur que la pierre",
+                "3": "Courageux si besoin",
+                "4": "Droit au but",
+                "5": "Petit peuple"
+            },
+            "Recompence":{
+                "1": "Arc des Hauts du Nord (Arc)",
+                "2": "Lame de Roi (Épée courte)",
+                "3": "Armure de Chance (Armure)"
+            },
+            "competence":{
+                "Admiration":0,
+                "Athletisme":0,
+                "Conscience":2,
+                "Exploration":0,
+                "Chant":2,
+                "Artisanat":0,
+
+                "Inspiration":0,
+                "Voyage":1,
+                "Perspicacite":1,
+                "Guerison":0,
+                "Courtoisie":3,
+                "Combat":0,
+
+                "Persuasion":2,
+                "Furtivite":3,
+                "Fouille":2,
+                "Chasse":0,
+                "Enigmes":2,
+                "Conaissances":0      
+            },
+            "specialite":{
+                "1" : "Cuisine",
+                "2" : "Jardinier",
+                "3" : "Herboristerie",
+                "4" : "Fumer",
+                "5" : "Conte",
+                "6" : "Tunnelier"
+            },
+            "Origine":{
+                "1":
+                {
+                "nom":"Fermier impétueux",
+                "Attribut de base":{
+                    "corps":3,
+                    "coeur":6,
+                    "esprit":5
+                },
+                "competence favorite":"Artisanat",
+                "Particularite": ["Courageux","Généraux","Jovial","Loyal","Miséricordieux","Passionné","Patient","Sincère"]
+                },
+                "2":
+                {
+                "nom": "Trop de sentiers à fouler",
+                "Attribut de base":{
+                    "corps":4,
+                    "coeur":5,
+                    "esprit":5
+                },
+                "competence favorite":"Voyage",
+                "Particularite": ["Astucieux","Audacieux","Curieux","Passionné","Preste","Robuste","Sincère","Vue perçante"]
+                },
+                "3":
+                {
+                "nom":"Une oreille attentive",
+                "Attribut de base":{
+                    "corps":3,
+                    "coeur":7,
+                    "esprit":4
+                },
+                "competence favorite":"Enigmes",
+                "Particularite": ["Courtois","Curieux","Énergique","Honorable","Loyal","Ouïe fine","Prudent","Sincère"]
+                },
+                "4":
+                {
+                "nom":"Un gentilhomme plein d’esprit",
+                "Attribut de base":{
+                    "corps":2,
+                    "coeur":6,
+                    "esprit":6
+                },
+                "competence favorite":"Persuasion",
+                "Particularite": ["Astucieux","Fier","Honorable","Insaisissable","Patient","Prudent","Sincère","Vue perçante"]
+                },
+                "5":
+                {
+                    "nom":"Du Pays de Bouc",
+                    "Attribut de base":{
+                        "corps":4,
+                        "coeur":6,
+                        "esprit":4
+                    },
+                    "competence favorite":"Présence",
+                    "Particularite": ["Courtois","Énergique","Fier","Jovial","Ouïe fine","Preste","Sincère","Téméraire"]
+                },
+                "6":
+                {
+                    "nom":"Sang Touque",
+                    "Attribut de base":{
+                        "corps":2,
+                        "coeur":7,
+                        "esprit":5
+                    },
+                    "competence favorite":"Exploration",
+                    "Particularite": ["Audacieux","Courageux","Généreux","Insaisissable","Miséricordieux","Robuste","Sincère","Téméraire"]
+                }
+            },
+            "Vocation":{
+                "1":{
+                    "nom":"Chasseur de trésors",
+                    "competences_favorites":["Déplacement","Perception"],
+                    "traits":"Monte-en-l’air",
+                    "part d'ombre":"Mal du Dragon"
+                },
+                "2":{
+                    "nom":"Vagabond",
+                    "competences_favorites":["Coutume","Survie"],
+                    "traits":"Folklore",
+                    "part d'ombre":"Folie itinérante"
+                },
+                "3":{
+                    "nom":"Tueur",
+                    "competences_favorites":["Déplacement","Personnalité"],
+                    "traits":"Connaissances des ennemis",
+                    "part d'ombre":"Malédiction de Vengeance"
+                }
+            },
+            "Armes":{
+                "1":{
+                    "1" :{
+                        "nom" :"Epée courte",
+                        "competence":2
+                    },
+                    "2" :{
+                        "nom" :"Arc",
+                        "competence":1
+                    },
+                    "3" :{
+                        "nom" :"Dague",
+                        "competence":1
+                    }
+                },
+                "2":{
+                    "1" :{
+                        "nom" :"Arc",
+                        "competence":2
+                    },
+                    "2" :{
+                        "nom" :"Épée courte",
+                        "competence":1
+                    },
+                    "3" :{
+                        "nom" :"Dague",
+                        "competence":1
+                    }
+                }
+            } 
+       
+     },
+        "6":
+        {
+            "nom" : "Hommes des Bois des Terres Sauvages",
+            "standard de vie": "Modeste",
+            "Avantage culturel": "Menuiserie",
+            "Endurance" : 20,
+            "Espoir" : 10,
+            "Vertus":{
+                "1": "Chanson de dévouement",
+                "2": "Chiens de la Forêt Noire",
+                "3": "Herbes médicinales",
+                "4": "La volonté du chasseur",
+                "5": "Vigilance naturelle",
+                "6": "Inatteignable par l’Ombre"
+            },
+            "Recompence":{
+                "1": "Hache barbue (Hache à long manche)",
+                "2": "Armure de plumes (Armure)",
+                "3": "Arc du Berger (Arc ou Arc long)"
+            },
+            "competence":{
+                "Admiration":0,
+                "Athletisme":2,
+                "Conscience":2,
+                "Exploration":3,
+                "Chant":1,
+                "Artisanat":1,
+
+                "Inspiration":1,
+                "Voyage":0,
+                "Perspicacite":0,
+                "Guerison":3,
+                "Courtoisie":0,
+                "Combat":1,
+
+                "Persuasion":0,
+                "Furtivite":2,
+                "Fouille":0,
+                "Chasse":2,
+                "Enigmes":1,
+                "Conaissances":0     
+            },
+            "specialite":{
+                "1" : "Connaissances régionales(Mirkwood)",
+                "2" : "Connaissance de la faune",
+                "3" : "Herboristerie",
+                "4" : "Médecine",
+                "5" : "Pêche",
+                "6" : "Connaissances régionales(Anduin)"
+            },
+            "Origine":{
+                "1":
+                {
+                "nom":"Le limier",
+                "Attribut de base":{
+                    "corps":3,
+                    "coeur":4,
+                    "esprit":7
+                },
+                "competence favorite":"Chasse",
+                "Particularite": ["Bourru","Courageux","Fier","Franc","Généreux","Insaisissable","Passionné","Résistant"]
+                },
+                "2":
+                {
+                "nom":"Disciple du Magicien",
+                "Attribut de base":{
+                    "corps":3,
+                    "coeur":5,
+                    "esprit":6
+                },
+                "competence favorite":"Chant",
+                "Particularite": ["Courageux","Grand","Fier","Franc","Malin","Observateur","Patient","Rapide"]
+                },
+                "3":
+                {
+                "nom":"Héritage féérique",
+                "Attribut de base":{
+                    "corps":4,
+                    "coeur":4,
+                    "esprit":6
+                },
+                "competence favorite":"Vigilance",
+                "Particularite": ["Audacieux","Beau","Courageux","Curieux","Grand","Observateur","Sincère","Téméraire"]
+                },
+                "4":
+                {
+                    "nom":"Apprenti des Montagnards",
+                    "Attribut de base":{
+                        "corps":4,
+                        "coeur":5,
+                        "esprit":5
+                    },
+                    "competence favorite":"Fouille",
+                    "Particularite": ["Bourru", "Circonspect", "Courageux","Endurci","Insaisissable", "Résistant", "Sévère", "Sincère" ]
+                    },
+                    
+                "5":
+                {
+                "nom":"Prospecteur",
+                "Attribut de base":{
+                    "corps":2,
+                    "coeur":5,
+                    "esprit":7
+                },
+                "competence favorite":"Athletisme",
+                "Particularite": ["Audacieux","Courageux","Curieux","Déterminé","Généreux","Passionné","Rapide","Téméraire"]
+                },
+                "6":
+                {
+                "nom":"Guide des Épées",
+                "Attribut de base":{
+                    "corps":2,
+                    "coeur":6,
+                    "esprit":6
+                },
+                "competence favorite":"Art de la guerre",
+                "Particularite": ["Beau","Bourru","Circonspect","Courageux","Déterminé","Endurci","Malin","Patient"]
+                }               
+            },
+            "Vocation":{
+                "1":{
+                    "nom":"Protecteur",
+                    "competences_favorites":["Personnalité","Survie"],
+                    "traits":"Conscience de l’Ombre",
+                    "part d'ombre":"Attrait du pouvoir"
+                },
+                "2":{
+                    "nom":"Vagabond",
+                    "competences_favorites":["Coutume","Survie"],
+                    "traits":"Folklore",
+                    "part d'ombre":"Folie itinérante"
+                },
+                "3":{
+                    "nom":"Érudit",
+                    "competences_favorites":["Perception ","Métier"],
+                    "traits":"Rimes de savoir",
+                    "part d'ombre":"Attrait des secrets"
+                }
+            },
+            "Armes":{
+                "1":{
+                    "1" :{
+                        "nom" :"Arcs",
+                        "competence":2
+                    },
+                    "2" :{
+                        "nom" :"Hache à long manche",
+                        "competence":1
+                    },
+                    "3" :{
+                        "nom" :"Dague",
+                        "competence":1
+                    }
+                },
+                "2":{
+                    "1" :{
+                        "nom" :"Hache à long manche",
+                        "competence":2
+                    },
+                    "2" :{
+                        "nom" :"Lance",
+                        "competence":1
+                    },
+                    "3" :{
+                        "nom" :"Dague",
+                        "competence":1
+                    }
+                }
+            }
+        }
+    }
+}

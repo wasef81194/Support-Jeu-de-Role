@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Nouvelle Partie{% endblock %}
+
+{% block body %}
+<div class="replaceAjaxContent">
+    <h1 class="title-party">Nouvelle partie</h1>
+
+    <h2 class="name-game-master">Game master: {{app.user.pseudo}}</h2> 
+      <div class="d-flex justify-content-center">
+        {{ include('partie/_form.html.twig') }}
+      </div>
+    
+    {% if id_partie != 'null'  %}
+        <input type="hidden" id="partieNumber" value="{{id_partie}}"> 
+        <h1>{{ partie.nom}}</h1>
+
+        <form method="post"   action="{{path('app_partie_en_cours', {'id': partie.id})}}">
+    
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <h2>Joueurs</h2>        
+
+                    
+                        {% for joueurs in partie.Joueurs %}
+                            <tr>
+                                <th>{{joueurs.pseudo}}</th>
+                                <td>
+                                    <button ><a href="{{ path('personnage_new', {'id': joueurs.id, 'partie_id':partie.id}) }}">Nouveau personnage</a></button>
+                                </td>
+                                <td>
+                                    {% for personnages in joueurs.personnages %}     
+                                                <input type="radio" id="{{personnages.id}}" name="{{joueurs.id}}" value="{{personnages.id}}">
+                                                <label for="{{personnages.id}}">{{personnages.nom}} - ({{personnages.classe}})<i class="fa-regular fa-file-pdf"></i></label>                               
+                                    {% endfor %}
+                                </td>
+                        </tr>
+                        {% endfor %}
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit">Valider la partie</button>
+        </form>
+            {{ include('partie/_delete_form.html.twig') }}
+    {% endif %}
+</div>
+<script></script>
+{% endblock %}

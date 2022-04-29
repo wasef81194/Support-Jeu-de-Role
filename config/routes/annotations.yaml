@@ -1,0 +1,9 @@
+controllers:
+    resource: ../../src/Controller/
+    type: annotation
+new_partie:
+    path: /partie/new/{id}
+    controller: App\Controller\PartieController::new
+kernel:
+    resource: ../../src/Kernel.php
+    type: annotation
